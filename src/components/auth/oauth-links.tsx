@@ -9,7 +9,7 @@ export default function OAuthLinks() {
 
   return (
     <div className="flex flex-col w-full max-w-md space-y-2">
-      <Link
+      {/* <Link
         to={github}
         className={cn(
           buttonVariants({ variant: 'link' }),
@@ -18,8 +18,8 @@ export default function OAuthLinks() {
       >
         <SiGithub className="w-4 h-4" />
         <span className="flex-1 text-center">Continue with Github</span>
-      </Link>
-      <Link
+      </Link> */}
+      {/* <Link
         to={google}
         className={cn(
           buttonVariants({ variant: 'link' }),
@@ -28,9 +28,9 @@ export default function OAuthLinks() {
       >
         <SiGoogle className="w-4 h-4" />
         <span className="flex-1 text-center">Continue with Google</span>
-      </Link>
+      </Link> */}
 
-      <Link
+      {/* <Link
         to={apple}
         className={cn(
           buttonVariants({ variant: 'link' }),
@@ -39,9 +39,9 @@ export default function OAuthLinks() {
       >
         <SiApple className="w-4 h-4" />
         <span className="flex-1 text-center">Continue with Apple</span>
-      </Link>
+      </Link> */}
 
-      <Link
+      {/* <Link
         to={linkedin}
         className={cn(
           buttonVariants({ variant: 'link' }),
@@ -50,7 +50,7 @@ export default function OAuthLinks() {
       >
         <SiLinkedin className="w-4 h-4" />
         <span className="flex-1 text-center">Continue with LinkedIn</span>
-      </Link>
+      </Link> */}
     </div>
   )
 }

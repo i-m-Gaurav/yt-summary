@@ -16,21 +16,21 @@ export default function SignIn() {
         <Separator className="my-4" />
 
         <div className="space-y-2">
-          <Link
+          {/* <Link
             to={'/sign-in/security-key'}
             className={cn(buttonVariants({ variant: 'outline' }), 'w-full')}
           >
             <Fingerprint className="w-4 h-4" />
             <span className="flex-1 text-center">Continue with a security key</span>
-          </Link>
+          </Link> */}
 
-          <Link
+          {/* <Link
             to={'/sign-in/magic-link'}
             className={cn(buttonVariants({ variant: 'outline' }), 'w-full')}
           >
             <Mail className="w-4 h-4" />
             <span className="flex-1 text-center">Continue with a magick link</span>
-          </Link>
+          </Link> */}
 
           <Link
             to={'/sign-in/email-password'}
