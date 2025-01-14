@@ -8,7 +8,7 @@ const UrlForm: React.FC = () => {
   const handleSummarize = async (): Promise<void> => {
     setIsLoading(true);
     try {
-      const response = await fetch('https://kumargaurav.app.n8n.cloud/webhook-test/ytube', {
+      const response = await fetch('https://kumargaurav.app.n8n.cloud/webhook/ytube', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ youtubeUrl }),
