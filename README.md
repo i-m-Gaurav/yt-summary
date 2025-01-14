@@ -6,4 +6,4 @@ For more information, check out these resources:
 
 - [Nhost](https://nhost.io)
 - [Documentation](https://docs.nhost.io)
-- [React Quickstart Guide](https://docs.nhost.io/guides/quickstarts/react)
+- [React Quickstart Guide](https://docs.nhost.io/guides/quickstarts/react)# yt-summary
